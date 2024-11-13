@@ -20,7 +20,7 @@ const Create = () => {
 
   const handleFormSubmission = () => {
     axios
-      .post('/api/authors', author)
+      .post('https://mern-mvc-chandar.onrender.com/api/authors', author)
       .then(() => {
         setRedirect(true)
       })
